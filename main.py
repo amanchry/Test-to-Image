@@ -1,7 +1,7 @@
 from huggingface_hub import InferenceClient
 
 # Initialize the client
-client = InferenceClient("black-forest-labs/FLUX.1-dev", token="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")
+client = InferenceClient("black-forest-labs/FLUX.1-dev", token="type_token_here")
 
 # Generate image from text
 print("Generating image...")
